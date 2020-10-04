@@ -1,3 +1,3 @@
-#KoKoa Clone 2020 Update
+# KoKoa Clone 2020 Update
 
-Css got so much better!
+Html & Css got so much better!
