@@ -5,33 +5,43 @@
  <link href="style.css" rel="stylesheet" />
  <style>
      body{
-         height: 1000vh;
+         height: 10px;
          margin: 20px;
      }
-     div{
-         
-        width: 300px;
-        height: 300px;
-        color: white;
-        background-color: teal;
-        
+     
+     span{
+         color: tomato;
+         background-color: yellowgreen;
+         padding: 5px;
+         border-radius: 10px;
      }
-     #green{
-         position: fixed;
+     input:focus{
+         background-color: tomato ;
      }
-    #different{
-        top: 5px;
-        left: 200px;
-       
-        background-color: wheat;
-        width: 350px;
-    }
+     a:visited{
+         color: tomato;
+     }
+   a:hover{
+       color: teal;
+   }
+   a:focus{
+       color: turquoise;
+   }
+   input::placeholder{
+       color: tomato;
+   }
    
  </style>
 </head>
  <body>
-    <div id="green"></div>
-    <div id="different"></div>
-    
+    <div>
+      <button>Hello</button>
+      
+      <a href="https://app.com">gotoapple</a>
+    </div>
+    <form >
+        <input type="text"  placeholder="name" >
+        
+    </form>
  </body>
 </html>
