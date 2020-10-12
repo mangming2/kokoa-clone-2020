@@ -4,24 +4,30 @@
  <title>Home - my first website</title>
  
  <style>
-
-a{
-    color: white;
-    background-color: tomato;
-    text-decoration: none;
-    padding: 3px 5px;
-    border-radius: 10px;
-    font-size: 55px;
-    transition: all 5s linear;
+     body{
+         display: flex;
+         height: 100vh;
+         align-items:center;
+         justify-content:center;
+     }
+div{
+    background-color: teal;
+    width: 200px;
+    height: 200px;
 }
-a:hover{
-    color: tomato;
-    background-color: wheat;
+@media screen and (max-width: 600px){
+    div{ background-color: tomato;}
+}
+@media screen and (min-width: 601px) and (max-width: 1200px){
+    div{ background-color: turquoise;}
+}
+@media screen and (min-width: 1200px){
+    div{ background-color: wheat;}
 }
  </style>
    
 </head>
  <body>
-  <a href="#">Go home</a>
+  <div></div>
  </body>
 </html>
